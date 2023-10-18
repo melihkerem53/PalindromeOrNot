@@ -23,13 +23,13 @@ void TerstenYazimKarsılastırma(char metin[])
 		if (metin[i] != metin[strlen(metin) - i - 1])
 		{
 			flag = 0;
-			printf("\033[31mKELIME POLINDROM DEGIL\033[0m\n");
+			printf("\033[31mKELIME PALINDROM DEGIL\033[0m\n");
 			break;
 		}
 	}
 
 	if (flag)
-		printf("\033[36mKELIME POLINDROM\033[0m\n");
+		printf("\033[36mKELIME PALINDROM\033[0m\n");
 }
 
 int main()
